@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, css } from 'aphrodite'
-import { Colors } from '../helpers/styles';
-import logo from '../images/bingo-teacher-icon.png';
+// import { Colors } from '../helpers/styles';
+// import logo from '../images/bingo-teacher-icon.png';
 
 export default function MenuBar() {
   return (
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     padding: '.2em',
     margin: 0,
   },
-  menuBarLogo: {
-    alignSelf: 'flex-end'
-  }
+  // menuBarLogo: {
+  //   alignSelf: 'flex-end'
+  // }
 });

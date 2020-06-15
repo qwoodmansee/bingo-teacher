@@ -1,6 +1,8 @@
-import React, {useState, useCallback} from 'react';
+import React, { useCallback } from 'react';
+import { StyleSheet, css } from 'aphrodite'
 import {getTricksForGoal} from '../helpers/goal-data-helpers';
 import YoutubeDisplayer from './youtube-displayer';
+import { Colors } from '../helpers/styles';
 
 export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
   const tricks = useCallback(() => {
@@ -9,14 +11,15 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
 
   return (
     <div>
-      <p
+      <h4
+        className={css(styles.goalNameText)}
         onContextMenu={(e) => {
           e.preventDefault();
           onRemoveGoal(goal);
         }}
       >
         {goal.goalName}
-      </p>
+      </h4>
       {goal.notes && (
         <div>
           <h4>Notes:</h4>
@@ -40,3 +43,9 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
     </div>
   );
 }
+
+const styles = StyleSheet.create({
+  goalNameText: {
+    color: Colors.PRIMARY
+  }
+});

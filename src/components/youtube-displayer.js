@@ -10,9 +10,9 @@ export default function YoutubeDisplayer({videoUrl}) {
       return  EMBED_PREFIX + urlParams.get('v');
     }
     
-    const isShortUrl = videoUrl.indexOf('.be\/') !== -1;
+    const isShortUrl = videoUrl.indexOf('.be/') !== -1;
     if (isShortUrl) {
-      return EMBED_PREFIX + videoUrl.split('.be\/')[1];
+      return EMBED_PREFIX + videoUrl.split('.be/')[1];
     }
   }
   return (

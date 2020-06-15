@@ -1,8 +1,12 @@
 import React, {useState, useCallback} from 'react';
 import SelectedGoalsDisplay from './selected-goals-display';
+import { getGoalsFromUrl } from '../helpers/bingo-popout-parser';
+import { StyleSheet, css } from 'aphrodite'
+import { Colors } from '../helpers/styles';
 
 export default function GoalDisplay({goals}) {
   const [searchValue, setSearchValue] = useState("");
+  const [popoutCardUrl, setPopoutCardUrl] = useState("");
   const [selectedGoals, setSelectedGoals] = useState([]);
   
   const removeGoal = useCallback((goalToRemove) => {
@@ -24,7 +28,20 @@ export default function GoalDisplay({goals}) {
       />
 
       <div>
-        <h2>Search for goal:</h2>
+        <h2>Paste in an OotBingo Popout Card URL:</h2>
+        <input 
+          type="text"
+          value={popoutCardUrl} 
+          onChange={(e) => {setPopoutCardUrl(e.target.value)}}
+        />
+        <button 
+          onClick={() => {
+            const foundGoals = getGoalsFromUrl({goals, url: popoutCardUrl});
+            setSelectedGoals([...selectedGoals, ...foundGoals])
+          }}>Parse!</button>
+      </div>
+      <div>
+        <h2>or manually search for goals:</h2>
         <input 
           type="text"
           value={searchValue} 
@@ -35,7 +52,8 @@ export default function GoalDisplay({goals}) {
         <h3>Search Results</h3>
         {filteredGoals().map((goal) => {
           return (
-            <p 
+            <p
+              className={css(styles.goalNameText)}
               key={goal.goalName}
               onClick={() => {
                 setSelectedGoals([...selectedGoals, goal])
@@ -49,3 +67,11 @@ export default function GoalDisplay({goals}) {
     </div>
   )
 }
+
+const styles = StyleSheet.create({
+  goalNameText: {
+    color: Colors.SECONDARY,
+    fontWeight: 'bold',
+    cursor: 'pointer'
+  }
+});
