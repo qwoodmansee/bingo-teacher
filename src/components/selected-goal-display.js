@@ -17,15 +17,26 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
       >
         {goal.goalName}
       </p>
-      {tricks().map((trick) => {
-        return (
-          <div key={trick.trickName}>
-            <p>{trick.trickName}</p>
-            <YoutubeDisplayer videoUrl={trick.trickUrl}/>
-          </div>
-        );
-      })}
-
+      {goal.notes && (
+        <div>
+          <h4>Notes:</h4>
+          <p>{goal.notes}</p>
+        </div>
+      )}
+      {tricks().length > 0 && (
+        <div>
+        <h4>Tricks:</h4>
+        {tricks().map((trick) => {
+          return (
+            <div key={trick.trickName}>
+              <p>{trick.trickName}</p>
+              <YoutubeDisplayer videoUrl={trick.trickUrl}/>
+            </div>
+          );
+        })}
+        </div>
+      )}
+      
     </div>
   );
 }
