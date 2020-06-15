@@ -5,13 +5,19 @@ export const getGoalsFromUrl = ({goals, url}) => {
   const encodedGoalsList = encodedGoalsString.split('%3B%3B%3B');
   const checkSet = new Set();
   encodedGoalsList.forEach((encodedGoalString) => {
-    checkSet.add(decodeURI(encodedGoalString));
+    let decodedGoalName = decodeURI(encodedGoalString);
+    // special cases that decodeURI misses
+    decodedGoalName = decodedGoalName.replace('%26', '&');
+    checkSet.add(decodeURI(decodedGoalName));
   });
   
   const foundGoals = goals.filter((goal) => checkSet.has(goal.goalName));
   console.log(foundGoals);
   return foundGoals;
 }
+
+// goal with &:
+// https://ootbingo.github.io/bingo/bingo-popout.html#ROW5%3D3%20Swords%20%26%203%20Boots%3B%3B%3BAll%204%20Skulltulas%20in%20Deku%20Tree%3B%3B%3BSaria's%20Song%3B%3B%3B7%20Compasses%3B%3B%3B2%20Lon%20Lon%20Ranch%20Area%20Skulltulas
 
 //second half example
 // COL3%3D5%20Compasses%3B%3B%3BWater%20Temple%20Boss%20Key%3B%3B%3BGoron%20Bracelet%3B%3B%3BFire%20Temple%20Boss%20Key%3B%3B%3BAll%204%20Market%20Area%20Skulltulas
