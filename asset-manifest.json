@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bingo-teacher/static/css/main.dd569279.chunk.css",
-    "main.js": "/bingo-teacher/static/js/main.306e51d5.chunk.js",
-    "main.js.map": "/bingo-teacher/static/js/main.306e51d5.chunk.js.map",
+    "main.js": "/bingo-teacher/static/js/main.91e5466b.chunk.js",
+    "main.js.map": "/bingo-teacher/static/js/main.91e5466b.chunk.js.map",
     "runtime-main.js": "/bingo-teacher/static/js/runtime-main.d5921fff.js",
     "runtime-main.js.map": "/bingo-teacher/static/js/runtime-main.d5921fff.js.map",
-    "static/js/2.92b399e9.chunk.js": "/bingo-teacher/static/js/2.92b399e9.chunk.js",
-    "static/js/2.92b399e9.chunk.js.map": "/bingo-teacher/static/js/2.92b399e9.chunk.js.map",
+    "static/js/2.ebe5475d.chunk.js": "/bingo-teacher/static/js/2.ebe5475d.chunk.js",
+    "static/js/2.ebe5475d.chunk.js.map": "/bingo-teacher/static/js/2.ebe5475d.chunk.js.map",
     "index.html": "/bingo-teacher/index.html",
-    "precache-manifest.c180210a6e404e6d26e9e0b541a10e63.js": "/bingo-teacher/precache-manifest.c180210a6e404e6d26e9e0b541a10e63.js",
+    "precache-manifest.26755b6cadb111915e2a58658e539e3c.js": "/bingo-teacher/precache-manifest.26755b6cadb111915e2a58658e539e3c.js",
     "service-worker.js": "/bingo-teacher/service-worker.js",
     "static/css/main.dd569279.chunk.css.map": "/bingo-teacher/static/css/main.dd569279.chunk.css.map",
-    "static/js/2.92b399e9.chunk.js.LICENSE.txt": "/bingo-teacher/static/js/2.92b399e9.chunk.js.LICENSE.txt"
+    "static/js/2.ebe5475d.chunk.js.LICENSE.txt": "/bingo-teacher/static/js/2.ebe5475d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d5921fff.js",
-    "static/js/2.92b399e9.chunk.js",
+    "static/js/2.ebe5475d.chunk.js",
     "static/css/main.dd569279.chunk.css",
-    "static/js/main.306e51d5.chunk.js"
+    "static/js/main.91e5466b.chunk.js"
   ]
 }
