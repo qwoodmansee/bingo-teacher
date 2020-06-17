@@ -12,7 +12,6 @@ export const getGoalsFromUrl = ({goals, url}) => {
   });
   
   const foundGoals = goals.filter((goal) => checkSet.has(goal.goalName));
-  console.log(foundGoals);
   return foundGoals;
 }
 
