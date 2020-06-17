@@ -1,5 +1,5 @@
 import React from 'react';
-import GoalsWithData from './data/bingo_goal_data.json';
+import { AllGoals } from './helpers/goal-data-helpers';
 import GoalDisplay from './components/goal_display';
 import MenuBar from './components/menu-bar';
 import './App.css';
@@ -13,7 +13,7 @@ function App() {
        <MenuBar/>
       </div>
       <div className={css(styles.bodyContainer)}>
-       <GoalDisplay goals={GoalsWithData} />
+       <GoalDisplay goals={AllGoals()} />
       </div>
       <div className={css(styles.footerContainer)} />
     </div>
