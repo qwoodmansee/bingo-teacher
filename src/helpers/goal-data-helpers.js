@@ -1,16 +1,24 @@
-export const getTricksForGoal = ({goal}) => {
-  const tricks = [];
-  if (goal.trickOneUrl) {
-    tricks.push({trickName: goal.trickOneName, trickUrl: goal.trickOneUrl});
-  }
-  if (goal.trickTwoUrl) {
-    tricks.push({trickName: goal.trickTwoName, trickUrl: goal.trickTwoUrl});
-  } 
-  if (goal.trickThreeUrl) {
-    tricks.push({trickName: goal.trickThreeName, trickUrl: goal.trickThreeUrl});
-  }
-  if (goal.trickFourUrl) {
-    tricks.push({trickName: goal.trickFourName, trickUrl: goal.trickFourUrl});
-  } 
-  return tricks;
+import { Tricks } from '../data/tricks';
+import { Goals } from '../data/goals';
+
+export const AllGoals = () => {
+  // merge the goals with their tricks so we have a nice singular object to work with
+  const goalsWithTricks = Goals().map(({goalName, trickIds, goalNotes}) => {
+
+    // handle case where there is only one trick per goal
+    if (typeof trickIds === 'string') {
+      trickIds = [trickIds];
+    } else if (!trickIds) {
+      trickIds = [];
+    }
+
+    return {
+      goalName,
+      goalNotes,
+      tricks: trickIds.map((trickId) => {
+        return Tricks().find(({id}) => id === trickId.toString())
+      })
+    };
+  });
+  return goalsWithTricks;
 }
