@@ -57,7 +57,7 @@ export const Tricks = () => {
     },
     {
       "id": "C15A5A39",
-      "trickName": "Castle \"Before\" Night",
+      "trickName": "Castle Before Night Unloaded Chains",
       "trickUrl": null,
       "isFundamental": true,
       "usuallyRequired": true,
@@ -256,7 +256,7 @@ export const Tricks = () => {
     {
       "id": "3B9CB785",
       "trickName": "Cross Gerudo Bridge",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=0i7sXA1OtYk",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -278,7 +278,7 @@ export const Tricks = () => {
     {
       "id": "3625CB18",
       "trickName": "Child Bridge Megaflip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/tMl9vYDnjjQ",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -300,7 +300,7 @@ export const Tricks = () => {
     {
       "id": "375E2213",
       "trickName": "Wasteland No Lens",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=h5_EiPTjdEk",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -322,7 +322,7 @@ export const Tricks = () => {
     {
       "id": "D3D2189E",
       "trickName": "River of Sand No Hoverboots",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/x1rIszTnER8",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -334,6 +334,61 @@ export const Tricks = () => {
       "id": "D1AE3FD5",
       "trickName": "Wasteland 50 rupee chest",
       "trickUrl": "https://www.youtube.com/watch?v=ttWVO4aGBH4",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": null,
+      "trickName": null,
+      "trickUrl": null,
+      "isFundamental": null,
+      "usuallyRequired": null,
+      "isMovement": null,
+      "v1Only": null,
+      "routing": null,
+      "notes": null
+    },
+    {
+      "id": "BA12A4D9",
+      "trickName": "All 5 DC Skulls Route",
+      "trickUrl": "https://www.youtube.com/watch?v=dpZUBS1jFy0&list=PLis_W6MEPku3PAobg6W1zP0-N8j7e-l08&index=8&t=0s",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "B69C4380",
+      "trickName": "Doomjump",
+      "trickUrl": "https://www.youtube.com/watch?v=WZNVlNNYmx8&t=58s",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "6C2A9F69",
+      "trickName": "Dodongo Door Block Skip",
+      "trickUrl": null,
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "C664F282",
+      "trickName": "DC WW to GTG as Child",
+      "trickUrl": "https://www.youtube.com/watch?v=0ZZ6fRs5gnI&list=PL1PISDP98fygAnj3yMpFfP4IWrPs9NpqJ&index=20&t=0s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -520,7 +575,7 @@ export const Tricks = () => {
     {
       "id": "ED22ECBC",
       "trickName": "Forest Temple BK Skip",
-      "trickUrl": "https://www.youtube.com/watch?v=FywKrQqmZxg&feature=youtu.be&t=66",
+      "trickUrl": "https://www.youtube.com/watch?v=5DfkXaHgeG4",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -564,7 +619,7 @@ export const Tricks = () => {
     {
       "id": "D5CEFBA5",
       "trickName": "Forest Block Push Puzzle Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=dIcQMuPA4mc",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -586,7 +641,7 @@ export const Tricks = () => {
     {
       "id": "E981EB6E",
       "trickName": "Forest Impossible Jump",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=neH1M8CqL2Q",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -829,64 +884,9 @@ export const Tricks = () => {
       "notes": null
     },
     {
-      "id": "BA12A4D9",
-      "trickName": "All 5 DC Skulls Route",
-      "trickUrl": "https://www.youtube.com/watch?v=dpZUBS1jFy0&list=PLis_W6MEPku3PAobg6W1zP0-N8j7e-l08&index=8&t=0s",
-      "isFundamental": false,
-      "usuallyRequired": false,
-      "isMovement": false,
-      "v1Only": false,
-      "routing": false,
-      "notes": null
-    },
-    {
-      "id": "B69C4380",
-      "trickName": "Doomjump",
-      "trickUrl": null,
-      "isFundamental": false,
-      "usuallyRequired": false,
-      "isMovement": false,
-      "v1Only": false,
-      "routing": false,
-      "notes": null
-    },
-    {
-      "id": "6C2A9F69",
-      "trickName": "Dodongo Door Block Skip",
-      "trickUrl": null,
-      "isFundamental": false,
-      "usuallyRequired": false,
-      "isMovement": false,
-      "v1Only": false,
-      "routing": false,
-      "notes": null
-    },
-    {
-      "id": "C664F282",
-      "trickName": "DC WW to GTG as Child",
-      "trickUrl": "https://www.youtube.com/watch?v=0ZZ6fRs5gnI&list=PL1PISDP98fygAnj3yMpFfP4IWrPs9NpqJ&index=20&t=0s",
-      "isFundamental": false,
-      "usuallyRequired": false,
-      "isMovement": false,
-      "v1Only": false,
-      "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
       "id": "B4E48D8C",
       "trickName": "Shadow Temple Early (Hookshot Jump)",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=HTU0fKl-6uQ&t=4s",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -908,7 +908,7 @@ export const Tricks = () => {
     {
       "id": "075E83B0",
       "trickName": "Shadow Fence Clip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=udCyLj2brsc&feature=youtu.be",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -919,7 +919,7 @@ export const Tricks = () => {
     {
       "id": "00D651EC",
       "trickName": "Shadow Skull in Boat Room",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=oX-dmoggudk",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -941,7 +941,7 @@ export const Tricks = () => {
     {
       "id": "87D42917",
       "trickName": "Shadow BK Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=sRf8wiaD02o&list=PL1n_Y5KrDdmUu3R2WUXPEmKjsg1XEr84u&index=9&t=0s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -951,8 +951,8 @@ export const Tricks = () => {
     },
     {
       "id": "5BAD1B80",
-      "trickName": "Shadow Block Room",
-      "trickUrl": null,
+      "trickName": "Shadow Spike Crusher Room",
+      "trickUrl": "https://www.youtube.com/watch?v=gYUXB834PvI",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -974,7 +974,7 @@ export const Tricks = () => {
     {
       "id": "932822FE",
       "trickName": "Shadow Bow Skip to Cross Void",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=bG9oyzWRX40",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -985,7 +985,18 @@ export const Tricks = () => {
     {
       "id": "1F23C2BE",
       "trickName": "Shadow Small Key Route",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=5QpJ1YV3gDo",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "8E98B6FC",
+      "trickName": "Shadow Medallion CS Skip",
+      "trickUrl": "https://www.youtube.com/watch?v=WVZFy0xdMVI&list=PL1n_Y5KrDdmUu3R2WUXPEmKjsg1XEr84u&index=17&t=0s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1040,7 +1051,7 @@ export const Tricks = () => {
     {
       "id": "E33B98C0",
       "trickName": "Statue Climb BK Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=HWSa9hqtN64",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1084,7 +1095,7 @@ export const Tricks = () => {
     {
       "id": "42513477",
       "trickName": "Spirit Entrance Block Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=QisEMB_uNRA",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1095,7 +1106,7 @@ export const Tricks = () => {
     {
       "id": "DAC8501B",
       "trickName": "Spirit SoT Skull",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/eeT4BRTQN8Y?t=98",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1106,7 +1117,7 @@ export const Tricks = () => {
     {
       "id": "D7E0B9BE",
       "trickName": "Spirit Child Side as Adult",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/eeT4BRTQN8Y?t=138",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1117,7 +1128,7 @@ export const Tricks = () => {
     {
       "id": "3C1E3767",
       "trickName": "Spirit Child Slide 2nd crawlspace skip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/eeT4BRTQN8Y?t=188",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1139,7 +1150,7 @@ export const Tricks = () => {
     {
       "id": "58D39228",
       "trickName": "Spirit Map",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=lagMotf1w7o",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1172,7 +1183,7 @@ export const Tricks = () => {
     {
       "id": "933844BC",
       "trickName": "Jabu Jabu as Adult",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=pPqKkCcBtk0",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1282,7 +1293,7 @@ export const Tricks = () => {
     {
       "id": "BC67E767",
       "trickName": "Lost Woods Skulltchula Duping",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=XVE7xiQHxck&t=14s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1480,7 +1491,7 @@ export const Tricks = () => {
     {
       "id": "4689699D",
       "trickName": "Dampe Void",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/hBtBZILGepc",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -1502,7 +1513,7 @@ export const Tricks = () => {
     {
       "id": "32F255A9",
       "trickName": "Hover boots into zoras domain",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/B0kbnE3AmYc?t=2",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -1535,7 +1546,7 @@ export const Tricks = () => {
     {
       "id": "B5BDCB36",
       "trickName": "Acute angle clip past King Zora",
-      "trickUrl": "https://youtu.be/aUWbJIh1NQY",
+      "trickUrl": "https://youtu.be/5kJ3GG6fxCk",
       "isFundamental": true,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1546,7 +1557,7 @@ export const Tricks = () => {
     {
       "id": "E92BFD8B",
       "trickName": "Child Chicken into Zora Domain",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/o-Q29_V70II",
       "isFundamental": true,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1621,20 +1632,9 @@ export const Tricks = () => {
       "notes": null
     },
     {
-      "id": "C850F63F",
-      "trickName": "Adult Skip into Zora Domain",
-      "trickUrl": null,
-      "isFundamental": true,
-      "usuallyRequired": false,
-      "isMovement": false,
-      "v1Only": false,
-      "routing": false,
-      "notes": null
-    },
-    {
       "id": "95759E64",
       "trickName": "Serenade CS Skip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/Z5SGg34uD14?t=22",
       "isFundamental": true,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1700,7 +1700,7 @@ export const Tricks = () => {
     {
       "id": "2B40FB6F",
       "trickName": "Adult 231 Skip (No Bombs)",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/eGKF8dPMaSY",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1733,7 +1733,7 @@ export const Tricks = () => {
     {
       "id": "4657BEE7",
       "trickName": "Bolero CS Skip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/CtZhmekDaNw",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
@@ -1755,7 +1755,7 @@ export const Tricks = () => {
     {
       "id": "153192BA",
       "trickName": "Megaflip to bean patch",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/ODnM5pfC2hY",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1766,7 +1766,29 @@ export const Tricks = () => {
     {
       "id": "39077DAC",
       "trickName": "Goron Shop Clip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=cszpYcPMIJI&list=PL1n_Y5KrDdmUu3R2WUXPEmKjsg1XEr84u&index=19&t=0s",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "20BB24C5",
+      "trickName": "Child Mega sidehop into Darunia's Room",
+      "trickUrl": "https://youtu.be/tMSiqzY3E2o",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "notes": null
+    },
+    {
+      "id": "58A35C3D",
+      "trickName": "Child Clip into DMC From Darunia's Room",
+      "trickUrl": "https://youtu.be/w4roOf4eC2Q",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1819,14 +1841,14 @@ export const Tricks = () => {
       "notes": null
     },
     {
-      "id": "8E98B6FC",
+      "id": null,
       "trickName": null,
       "trickUrl": null,
       "isFundamental": null,
       "usuallyRequired": null,
       "isMovement": null,
       "v1Only": null,
-      "routing": false,
+      "routing": null,
       "notes": null
     },
     {
@@ -1898,7 +1920,7 @@ export const Tricks = () => {
     {
       "id": "1BFB5B64",
       "trickName": "Fire Trial",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/vStsV0Kew90?t=13",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1909,7 +1931,7 @@ export const Tricks = () => {
     {
       "id": "E67D7D5A",
       "trickName": "Forest Trial",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=dfSJycHQiqE",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1942,7 +1964,7 @@ export const Tricks = () => {
     {
       "id": "9E248370",
       "trickName": "Water Trial",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/6g_ggyB-xRw",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -1986,7 +2008,7 @@ export const Tricks = () => {
     {
       "id": "452A0F7F",
       "trickName": "Statue Trials skip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/AZGccdS6nkQ?t=2",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
@@ -2040,149 +2062,6 @@ export const Tricks = () => {
     },
     {
       "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "20BB24C5",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "58A35C3D",
       "trickName": null,
       "trickUrl": null,
       "isFundamental": null,
@@ -2392,17 +2271,6 @@ export const Tricks = () => {
     },
     {
       "id": "922F90CD",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
       "trickName": null,
       "trickUrl": null,
       "isFundamental": null,

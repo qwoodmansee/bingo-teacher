@@ -1207,7 +1207,7 @@ export const Goals = () => {
         "FA10A855",
         "1BFB5B64"
       ],
-      "goalNotes": null
+      "goalNotes": "Much easier with gold gauntlet strength"
     },
     {
       "goalName": "Get to the end of Forest Trial",
@@ -1328,7 +1328,8 @@ export const Goals = () => {
     {
       "goalName": "Ice Cavern HP",
       "trickIds": [
-        "C850F63F",
+        "32F255A9",
+        "4674313E",
         "B5BDCB36",
         "E54BB163"
       ],
@@ -1337,7 +1338,8 @@ export const Goals = () => {
     {
       "goalName": "Iron Boots",
       "trickIds": [
-        "C850F63F",
+        "32F255A9",
+        "4674313E",
         "B5BDCB36",
         "95759E64"
       ],
@@ -1417,7 +1419,7 @@ export const Goals = () => {
       "goalName": "Map & Compass in Forest Temple",
       "trickIds": [
         "9C338AB0",
-        6950182,
+        "6950182",
         "4B71852C",
         "D5CEFBA5",
         ""
@@ -1427,7 +1429,8 @@ export const Goals = () => {
     {
       "goalName": "Map & Compass in Ice Cavern",
       "trickIds": [
-        "C850F63F",
+        "32F255A9",
+        "4674313E",
         "B5BDCB36",
         "8EE322C7"
       ],
@@ -1452,7 +1455,7 @@ export const Goals = () => {
         "3B9CB785",
         "8AB11EE5",
         "375E2213",
-        42513477,
+        "42513477",
         "58D39228"
       ],
       "goalNotes": [
