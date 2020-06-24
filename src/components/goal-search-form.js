@@ -10,11 +10,12 @@ export default function GoalSearchForm({goals, selectedGoals, onSelectedGoalsCha
   return (
     <div>
       <div>
-        <h2>Paste in an OotBingo Popout Card URL:</h2>
+        <h2>OotBingo Popout Card URL:</h2>
         <div className={css(styles.popoutTextEntryContainer)}>
           <TextInputBox
             value={popoutCardUrl}
             onChange={(newValue) => {setPopoutCardUrl(newValue)}}
+            styles={styles.popoutTextEntryTextInput}
           />
           <Button
             text={'Parse'}
@@ -25,7 +26,7 @@ export default function GoalSearchForm({goals, selectedGoals, onSelectedGoalsCha
         </div>
       </div>
       <div>
-        <h2>or manually search for goals:</h2>
+        <h2>manually search goals:</h2>
         <TextInputBox
           value={searchValue}
           onChange={(newValue) => onSearchValueChange(newValue)}
@@ -37,8 +38,12 @@ export default function GoalSearchForm({goals, selectedGoals, onSelectedGoalsCha
 
 const styles = StyleSheet.create({
   popoutTextEntryContainer: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center'
+    display: 'block',
   },
+  popoutTextEntryTextInput: {
+    marginRight: '2em',
+  },
+  popoutTextEntryButton: {
+    margin: '2em'
+  }
 });

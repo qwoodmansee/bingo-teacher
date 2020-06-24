@@ -2,10 +2,10 @@ import React from 'react';
 import { StyleSheet, css } from 'aphrodite'
 import { FontSizes } from '../../helpers/styles';
 
-export default function TextInputBox({ value, onChange, ...props }) {
+export default function TextInputBox({ value, onChange, styles, ...props }) {
   return (
     <input
-      className={css(styles.textInput)}
+      className={css(textInputStyles.textInput, styles)}
       type="text"
       value={value} 
       onChange={(e) => {onChange(e.target.value)}}
@@ -13,7 +13,7 @@ export default function TextInputBox({ value, onChange, ...props }) {
   );
 }
 
-const styles = StyleSheet.create({
+const textInputStyles = StyleSheet.create({
   textInput: {
     fontSize: FontSizes.MEDIUM,
     width: '10em',

@@ -15,8 +15,13 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
     return goal.tricks.length > 0;
   }, [goal]);
 
-  const numberOfFundamentalTricks = useMemo(() => {
-    return goal.tricks.filter((t) => t.isFundamental).length;
+  const fundamentalTricks = useMemo(() => {
+    return goal.tricks.filter((t) => t.isFundamental);
+  }, [goal]);
+
+  
+  const normalTricks = useMemo(() => {
+    return goal.tricks.filter((t) => !t.isFundamental);
   }, [goal]);
 
   return (
@@ -32,31 +37,25 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
       </h4>
 
       {hasNotes && (
-        <div>
-          <h4>Notes:</h4>
-          <p>{goal.goalNotes}</p>
+        <div
+          className={css(styles.noteWrapper)}
+        >
+          <h4 className={css(styles.lowMargin)} >
+            Notes:
+          </h4>
+          <p className={css(styles.lowMargin)}>
+            {goal.goalNotes}
+          </p>
         </div>
       )}
 
       {hasTricks && (
         <>
-          <h4>Tricks:</h4>
-          {numberOfFundamentalTricks > 0 && (
-            <label>
-              <Checkbox
-                checked={showFundamentals}
-                onChange={(e) => setShowFundamentals(e.target.checked)}
-              />
-              <span>Show Fundamentals ({numberOfFundamentalTricks} tricks)</span>
-            </label>
-          )}
-
           <div className={css(styles.tricksContainer)}>
-            {goal.tricks.map((trick) => {
+            {normalTricks.map((trick) => {
               const has_url = !!trick.trickUrl;
-              const isFundamentalTrick = trick.isFundamental;
               
-              if (has_url && ((showFundamentals && isFundamentalTrick) || !isFundamentalTrick)) {
+              if (has_url) {
                 return (
                   <div 
                     key={trick.trickName}
@@ -66,9 +65,43 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
                     {trick.trickUrl && <YoutubeDisplayer videoUrl={trick.trickUrl} widthInPx={384} heightInPx={216}/>}
                   </div>
                 );
+              } else {
+                return null;
               }
             })}
           </div>
+
+          {fundamentalTricks.length > 0 && (
+            <label>
+              <Checkbox
+                checked={showFundamentals}
+                onChange={(e) => setShowFundamentals(e.target.checked)}
+              />
+              <span>Show Fundamentals ({fundamentalTricks.length} tricks)</span>
+            </label>
+          )}
+
+          {showFundamentals && (
+            <div className={css(styles.tricksContainer)}>
+            {fundamentalTricks.map((trick) => {
+              const has_url = !!trick.trickUrl;
+              
+              if (has_url) {
+                return (
+                  <div 
+                    key={trick.trickName}
+                    className={css(styles.trick)}
+                  >
+                    <p>{trick.trickName}</p>
+                    {trick.trickUrl && <YoutubeDisplayer videoUrl={trick.trickUrl} widthInPx={384} heightInPx={216}/>}
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
+          </div>
+          )}
         </>
       )}     
     </div>
@@ -81,7 +114,11 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-evenly'
   },
-
+  noteWrapper: {
+  },
+  lowMargin: {
+    margin: '.1em'
+  },
   goalNameText: {
     color: Colors.PRIMARY,
     fontSize: FontSizes.LARGE,
