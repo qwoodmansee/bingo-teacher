@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, css } from 'aphrodite'
-import { Colors } from '../helpers/styles';
+import { Colors } from '../../helpers/styles';
 
 export default function Checkbox({ className, checked, ...props }) {
   const backgroundColor = StyleSheet.create({
