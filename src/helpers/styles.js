@@ -8,4 +8,16 @@ export const Colors = {
 
 export const TextModifiers = {
   BOLD: 'bold',
-} 
+  POINTER_CURSOR: 'pointer'
+};
+
+export const FontSizes = {
+  LARGE: '2rem',
+  MEDIUM: '1.5rem',
+  DEFAULT: '1rem',
+  SMALL: '.5em'
+};
+
+export const Centered = {
+  textAlign: 'center',
+}

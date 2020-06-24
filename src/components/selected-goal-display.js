@@ -1,12 +1,28 @@
-import React, { useCallback, useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { StyleSheet, css } from 'aphrodite'
-import YoutubeDisplayer from './youtube-displayer';
-import Checkbox from './checkbox';
-import {getTricksForGoal} from '../helpers/goal-data-helpers';
-import { Colors } from '../helpers/styles';
+import YoutubeDisplayer from './core/youtube-displayer';
+import Checkbox from './core/checkbox';
+import { Colors, FontSizes } from '../helpers/styles';
 
 export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
   const [showFundamentals, setShowFundamentals] = useState(false);
+
+  const hasNotes = useMemo(() => {
+    return !!goal.goalNotes;
+  }, [goal]);
+
+  const hasTricks = useMemo(() => {
+    return goal.tricks.length > 0;
+  }, [goal]);
+
+  const fundamentalTricks = useMemo(() => {
+    return goal.tricks.filter((t) => t.isFundamental);
+  }, [goal]);
+
+  
+  const normalTricks = useMemo(() => {
+    return goal.tricks.filter((t) => !t.isFundamental);
+  }, [goal]);
 
   return (
     <div>
@@ -19,50 +35,75 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
       >
         {goal.goalName}
       </h4>
-      {goal.goalNotes && (
-        <div>
-          <h4>Notes:</h4>
-          <p>{goal.goalNotes}</p>
+
+      {hasNotes && (
+        <div
+          className={css(styles.noteWrapper)}
+        >
+          <h4 className={css(styles.lowMargin)} >
+            Notes:
+          </h4>
+          <p className={css(styles.lowMargin)}>
+            {goal.goalNotes}
+          </p>
         </div>
       )}
-      {goal.tricks.length > 0 && (
+
+      {hasTricks && (
         <>
-          <h4>Tricks:</h4>
-          <label>
-            <Checkbox
-              checked={showFundamentals}
-              onChange={(e) => setShowFundamentals(e.target.checked)}
-            />
-            <span>Show Fundamentals</span>
-          </label>
           <div className={css(styles.tricksContainer)}>
-          
-          {goal.tricks.map((trick) => {
-            const has_url = !!trick.trickUrl;
-            const isFundamentalTrick = trick.isFundamental;
-            
-            if (has_url && ((showFundamentals && isFundamentalTrick) || !isFundamentalTrick)) {
-              if (trick.isFundamental && showFundamentals) {
-
-              }
-              return (
-                <div 
-                  key={trick.trickName}
-                  className={css(styles.trick)}
-                >
-                  <p>{trick.trickName}</p>
-                  <div>
-
+            {normalTricks.map((trick) => {
+              const has_url = !!trick.trickUrl;
+              
+              if (has_url) {
+                return (
+                  <div 
+                    key={trick.trickName}
+                    className={css(styles.trick)}
+                  >
+                    <p>{trick.trickName}</p>
+                    {trick.trickUrl && <YoutubeDisplayer videoUrl={trick.trickUrl} widthInPx={384} heightInPx={216}/>}
                   </div>
-                  {trick.trickUrl && <YoutubeDisplayer videoUrl={trick.trickUrl} widthInPx={384} heightInPx={216}/>}
-                </div>
-              );
-            }
-          })}
+                );
+              } else {
+                return null;
+              }
+            })}
           </div>
+
+          {fundamentalTricks.length > 0 && (
+            <label>
+              <Checkbox
+                checked={showFundamentals}
+                onChange={(e) => setShowFundamentals(e.target.checked)}
+              />
+              <span>Show Fundamentals ({fundamentalTricks.length} tricks)</span>
+            </label>
+          )}
+
+          {showFundamentals && (
+            <div className={css(styles.tricksContainer)}>
+            {fundamentalTricks.map((trick) => {
+              const has_url = !!trick.trickUrl;
+              
+              if (has_url) {
+                return (
+                  <div 
+                    key={trick.trickName}
+                    className={css(styles.trick)}
+                  >
+                    <p>{trick.trickName}</p>
+                    {trick.trickUrl && <YoutubeDisplayer videoUrl={trick.trickUrl} widthInPx={384} heightInPx={216}/>}
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
+          </div>
+          )}
         </>
-      )}
-      
+      )}     
     </div>
   );
 }
@@ -73,10 +114,13 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-evenly'
   },
-  trick: {
-
+  noteWrapper: {
+  },
+  lowMargin: {
+    margin: '.1em'
   },
   goalNameText: {
-    color: Colors.PRIMARY
+    color: Colors.PRIMARY,
+    fontSize: FontSizes.LARGE,
   },
 });

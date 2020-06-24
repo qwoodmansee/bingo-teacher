@@ -1,7 +1,7 @@
 import React from 'react';
 import { AllGoals } from './helpers/goal-data-helpers';
-import GoalDisplay from './components/goal_display';
-import MenuBar from './components/menu-bar';
+import RowHelper from './scenes/row-helper';
+import MenuBar from './components/header/menu-bar';
 import './App.css';
 import { Colors } from './helpers/styles';
 import { StyleSheet, css } from 'aphrodite'
@@ -13,9 +13,8 @@ function App() {
        <MenuBar/>
       </div>
       <div className={css(styles.bodyContainer)}>
-       <GoalDisplay goals={AllGoals()} />
+       <RowHelper goals={AllGoals()} />
       </div>
-      <div className={css(styles.footerContainer)} />
     </div>
   );
 }
@@ -25,6 +24,8 @@ const styles = StyleSheet.create({
     width: '100%',
     backgroundColor: Colors.BACKGROUND_LIGHT,
     color: Colors.WHITE,
+    textAlign: 'center',
+    minHeight: '100vh'
   },
   menuBarContainer: {
     width: '100%',
@@ -32,8 +33,8 @@ const styles = StyleSheet.create({
   },
   bodyContainer: {
     padding: 10,
+    height: '100%'
   },
-  footerContainer: {},
 });
 
 export default App;
