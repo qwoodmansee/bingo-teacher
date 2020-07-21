@@ -435,7 +435,7 @@ export const Tricks = () => {
     {
       "id": "8FAE21BA",
       "trickName": "Darunia CS Skip",
-      "trickUrl": "https://www.youtube.com/watch?v=-WGfAtcsX44&list=PLis_W6MEPku3muvelCmPhgizb2FpC1V9z&index=3&t=0s",
+      "trickUrl": "https://www.youtube.com/watch?v=hBifIqV3hyc",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
