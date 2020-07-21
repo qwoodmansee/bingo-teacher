@@ -26,7 +26,7 @@ export default function GoalSearchForm({filteredGoals, onSelectGoal}) {
 const styles = StyleSheet.create({
   goalNameText: {
     color: Colors.SECONDARY,
-    fontSize: FontSizes.MEDIUM,
+    fontSize: FontSizes.SLIGHTLY_LARGER,
     fontWeight: TextModifiers.BOLD,
     cursor: TextModifiers.POINTER_CURSOR,
   }

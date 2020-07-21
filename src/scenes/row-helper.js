@@ -5,7 +5,7 @@ import SearchResults from '../components/search-results';
 import Checkbox from '../components/core/checkbox';
 import HelpMenu from '../components/help-menu';
 import { StyleSheet, css } from 'aphrodite'
-import { Colors, FontSizes } from '../helpers/styles';
+import { Colors } from '../helpers/styles';
 
 export default function RowHelper({goals}) {
   const [searchValue, setSearchValue] = useState("");
@@ -46,20 +46,23 @@ export default function RowHelper({goals}) {
                 onSearchValueChange={(newValue) => setSearchValue(newValue)}
               />
               <SearchResults
+                className={css(styles.searchResults)}
                 filteredGoals={filteredGoals}
                 selectedGoals={selectedGoals}
                 onSelectGoal={(newSelectedGoal) => setSelectedGoals([...selectedGoals, newSelectedGoal])}
               />
               </>
             }
-              
-            <label>
-              <Checkbox
-                checked={showForm}
-                onChange={() => setShowForm(!showForm)}
-              />
-              <span>Hide Search Form</span>
-            </label>
+            
+              <div className={css(styles.topPadded)}>
+                <label>
+                  <Checkbox
+                    checked={showForm}
+                    onChange={() => setShowForm(!showForm)}
+                  />
+                  <span>Hide Search Form</span>
+                </label>
+              </div>
             </div>
 
             <div className={css(styles.card)}>
@@ -83,10 +86,13 @@ const styles = StyleSheet.create({
     order: 1,
     flexGrow: 3,
   },
+  topPadded: {
+    marginTop: '1em'
+  },
   rightColumn: {
     flexBasis: '10%',
     order: 2,
-
+    flexShrink: 3,
   },
   stickyTop: {
     top: '3em',
@@ -95,6 +101,9 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: Colors.BACKGROUND_DARK,
+    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+    transition: '0.3s',
+    borderRadius: '.3em',
     padding: '1em',
     margin: '1em',
   }

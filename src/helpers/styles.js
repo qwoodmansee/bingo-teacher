@@ -14,6 +14,7 @@ export const TextModifiers = {
 export const FontSizes = {
   LARGE: '2rem',
   MEDIUM: '1.5rem',
+  SLIGHTLY_LARGER: '1.2rem',
   DEFAULT: '1rem',
   SMALL: '.5em'
 };
