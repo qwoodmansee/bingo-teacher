@@ -614,7 +614,6 @@ export const Goals = () => {
         "6CA81599",
         "11DF7000",
         "89A994DA",
-        ""
       ],
       "goalNotes": null
     },
@@ -1449,7 +1448,6 @@ export const Goals = () => {
         "6950182",
         "4B71852C",
         "D5CEFBA5",
-        ""
       ],
       "goalNotes": null
     },
