@@ -11,6 +11,14 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
     return !!goal.goalNotes;
   }, [goal]);
 
+  const parsedNotes = useMemo(() => {
+    if (Array.isArray(goal.goalNotes)) {
+      return goal.goalNotes.join("\r\n");
+    } else {
+      return goal.goalNotes;
+    }
+  }, [goal.goalNotes]);
+
   const hasTricks = useMemo(() => {
     return goal.tricks.length > 0;
   }, [goal]);
@@ -44,7 +52,7 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
             Notes:
           </h4>
           <p className={css(styles.lowMargin)}>
-            {goal.goalNotes}
+            {parsedNotes}
           </p>
         </div>
       )}

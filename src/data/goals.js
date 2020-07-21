@@ -26,9 +26,11 @@ export const Goals = () => {
     {
       "goalName": "Defeat all Lizalfos in Dodongo's Cavern",
       "trickIds": "B69C4380",
-      "goalNotes": ```Doom jump (preferably)",
+      "goalNotes": [
+        "Doom jump (preferably)",
         "get bombs ONLY IF NEEDED.\nBacktrack from there (reverse flames). Top lizalfos",
-        "hookshot from bombflower to ladder.\nThen jump down and go to lizalfos behind the switch.```
+        "hookshot from bombflower to ladder.\nThen jump down and go to lizalfos behind the switch."
+      ],
     },
     {
       "goalName": "Map & Compass in Water Temple",
@@ -85,10 +87,10 @@ export const Goals = () => {
         "933844BC",
         "33028619"
       ],
-      "goalNotes": ```
+      "goalNotes": [
         "Jabu: If you just need skull",
         "jump down and backtrack instead of talking to ruto."
-        ```
+      ],
     },
     {
       "goalName": "1 Unused Small Key in each Adult Dungeon",
@@ -191,12 +193,12 @@ export const Goals = () => {
         "85D1C987",
         "C51AA108"
       ],
-      "goalNotes": ```
+      "goalNotes": [
         "Route Video is split into 3 sections",
         "one for if you have ZL",
         "One for if you have Iron Boots",
         "and one for if you just have a bunch of chus to hover."
-      ```
+      ]
     },
     {
       "goalName": "3 Songs",
@@ -369,12 +371,12 @@ export const Goals = () => {
         "4674313E",
         "B5BDCB36"
       ],
-      "goalNotes": ```
+      "goalNotes": [
         "1 HP is child only and requires lighting all the torches in Zora's Domain with Deku stick",
         "2 are in Zora's river and can be quickly gotten as adult with Hover Boots or megaside hops",
         "last 2 pieces are in Adult Zoras fountain one is freestanding on the frozen platforms",
         "one is at the bottom of the water and requires Iron boots.  The HP in ice cavern does NOT count."
-      ```,
+      ],
     },
     {
       "goalName": "500 Rupees",
