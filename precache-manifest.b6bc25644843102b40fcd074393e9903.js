@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6ba198dd29ff170dc130c216f7f9a9f",
+    "revision": "71ab96df33f2e70b23640004bc66e424",
     "url": "/bingo-teacher/index.html"
   },
   {
-    "revision": "2fb95cfb67433ed83928",
+    "revision": "d5acadc038a8be6c4a71",
     "url": "/bingo-teacher/static/css/main.dd569279.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bingo-teacher/static/js/2.5eb9bbde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fb95cfb67433ed83928",
-    "url": "/bingo-teacher/static/js/main.98e54889.chunk.js"
+    "revision": "d5acadc038a8be6c4a71",
+    "url": "/bingo-teacher/static/js/main.aae6ca3a.chunk.js"
   },
   {
     "revision": "edcd034ed35f3857107e",
