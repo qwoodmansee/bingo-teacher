@@ -1074,7 +1074,7 @@ export const Tricks = () => {
     {
       "id": "E33B98C0",
       "trickName": "Statue Climb BK Skip",
-      "trickUrl": "https://www.youtube.com/watch?v=HWSa9hqtN64",
+      "trickUrl": "https://www.youtube.com/watch?v=CF_PRShnFGE",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
