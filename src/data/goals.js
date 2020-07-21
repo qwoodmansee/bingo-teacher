@@ -25,8 +25,10 @@ export const Goals = () => {
     },
     {
       "goalName": "Defeat all Lizalfos in Dodongo's Cavern",
-      "trickIds": null,
-      "goalNotes": null
+      "trickIds": "B69C4380",
+      "goalNotes": ```Doom jump (preferably)",
+        "get bombs ONLY IF NEEDED.\nBacktrack from there (reverse flames). Top lizalfos",
+        "hookshot from bombflower to ladder.\nThen jump down and go to lizalfos behind the switch.```
     },
     {
       "goalName": "Map & Compass in Water Temple",
@@ -81,9 +83,12 @@ export const Goals = () => {
         "B669724E",
         "13E1BC06",
         "933844BC",
-        33028619
+        "33028619"
       ],
-      "goalNotes": null
+      "goalNotes": ```
+        "Jabu: If you just need skull",
+        "jump down and backtrack instead of talking to ruto."
+        ```
     },
     {
       "goalName": "1 Unused Small Key in each Adult Dungeon",
@@ -173,7 +178,8 @@ export const Goals = () => {
       "goalName": "3 Shields & 3 Tunics",
       "trickIds": [
         "B090EE3A",
-        "B0CA9C91"
+        "B0CA9C91",
+        "B1F50951"
       ],
       "goalNotes": null
     },
@@ -182,9 +188,15 @@ export const Goals = () => {
       "trickIds": [
         "1E196CEA",
         "D7357272",
-        "85D1C987"
+        "85D1C987",
+        "C51AA108"
       ],
-      "goalNotes": null
+      "goalNotes": ```
+        "Route Video is split into 3 sections",
+        "one for if you have ZL",
+        "One for if you have Iron Boots",
+        "and one for if you just have a bunch of chus to hover."
+      ```
     },
     {
       "goalName": "3 Songs",
@@ -210,20 +222,27 @@ export const Goals = () => {
     },
     {
       "goalName": "3 Swords & 3 Tunics",
-      "trickIds": "B0CA9C91",
+      "trickIds": [
+        "B0CA9C91",
+        "B1F50951"
+      ],
       "goalNotes": null
     },
     {
       "goalName": "3 Swords, Tunics, Boots, and Shields",
       "trickIds": [
         "B090EE3A",
-        "B0CA9C91"
+        "B0CA9C91",
+        "B1F50951"
       ],
       "goalNotes": null
     },
     {
       "goalName": "3 Tunics",
-      "trickIds": "B0CA9C91",
+      "trickIds": [
+        "B0CA9C91",
+        "B1F50951"
+      ],
       "goalNotes": null
     },
     {
@@ -232,7 +251,8 @@ export const Goals = () => {
         "B0CA9C91",
         "D7E0B9BE",
         "827B2011",
-        "95759E64"
+        "95759E64",
+        "B1F50951"
       ],
       "goalNotes": null
     },
@@ -295,7 +315,7 @@ export const Goals = () => {
       "trickIds": [
         "9C338AB0",
         "4B71852C",
-        6950182,
+        "6950182",
         "04B44A63"
       ],
       "goalNotes": "Mega jump gets you to floormaster room with key. Last key is well key."
@@ -349,12 +369,12 @@ export const Goals = () => {
         "4674313E",
         "B5BDCB36"
       ],
-      "goalNotes": [
-        "1 HP is child only and requires lighting all teh torches in Zora's DOmain with Deku stick",
+      "goalNotes": ```
+        "1 HP is child only and requires lighting all the torches in Zora's Domain with Deku stick",
         "2 are in Zora's river and can be quickly gotten as adult with Hover Boots or megaside hops",
         "last 2 pieces are in Adult Zoras fountain one is freestanding on the frozen platforms",
-        "one is at teh bottom of the water and requires Iron boots."
-      ]
+        "one is at the bottom of the water and requires Iron boots.  The HP in ice cavern does NOT count."
+      ```,
     },
     {
       "goalName": "500 Rupees",
@@ -545,8 +565,8 @@ export const Goals = () => {
     },
     {
       "goalName": "All 4 Market area Skulltulas",
-      "trickIds": null,
-      "goalNotes": null
+      "trickIds": "048B036A",
+      "goalNotes": "Song of Storms grotto requires explosives or blue fire"
     },
     {
       "goalName": "All 4 Skulltulas in Deku Tree",
@@ -619,7 +639,7 @@ export const Goals = () => {
       "goalName": "All 5 Skulltulas in Spirit Temple",
       "trickIds": [
         "614800B4",
-        42513477,
+        "42513477",
         "D7E0B9BE",
         "3C1E3767"
       ],
@@ -710,7 +730,8 @@ export const Goals = () => {
       "trickIds": [
         "B4E48D8C",
         "87D42917",
-        "DB6FF011"
+        "DB6FF011",
+        "A0C2A8B5"
       ],
       "goalNotes": null
     },
@@ -894,7 +915,8 @@ export const Goals = () => {
       "trickIds": [
         "B4E48D8C",
         "87D42917",
-        "DB6FF011"
+        "DB6FF011",
+        "A0C2A8B5"
       ],
       "goalNotes": null
     },
@@ -1008,7 +1030,7 @@ export const Goals = () => {
         "997CEAC9",
         "7FD1B460"
       ],
-      "goalNotes": "Get ZL and magic as child then go to grotto and get dins (gross)"
+      "goalNotes": "Get ZL and magic as child then go to fairy fountain in Hyrule castle and get dins"
     },
     {
       "goalName": "Double Magic",
@@ -1303,8 +1325,11 @@ export const Goals = () => {
     },
     {
       "goalName": "Goron Tunic",
-      "trickIds": "39077DAC",
-      "goalNotes": "Stop 'Link of the Gorons\" in adult Goron City talk through both his text options or buy for 200 rupees via rba wallet"
+      "trickIds": [
+        "39077DAC",
+        "1660C305"
+      ],
+      "goalNotes": "Stop 'Link of the Gorons\" in adult Goron City talk through both his text options or buy for 200 rupees via rba wallet. Killing Skull Kid is an easy way to get 200 Rupees"
     },
     {
       "goalName": "Green Gauntlets",

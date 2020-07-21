@@ -9,6 +9,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Escape",
       "notes": null
     },
     {
@@ -20,6 +21,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Escape",
       "notes": null
     },
     {
@@ -31,6 +33,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": true,
       "routing": false,
+      "practiceSection": "Escape",
       "notes": null
     },
     {
@@ -42,17 +45,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Escape",
       "notes": null
     },
     {
@@ -64,6 +57,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
@@ -75,6 +69,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
@@ -86,6 +81,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
@@ -97,6 +93,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
@@ -108,17 +105,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "id": "048B036A",
+      "trickName": "Song of Storms Grotto Skulltchula",
+      "trickUrl": "https://www.youtube.com/watch?v=Z8X27ZrPBeo",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "practiceSection": "Market/Castle",
       "notes": null
     },
     {
@@ -130,6 +129,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -141,17 +141,19 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
       "id": "310D8018",
       "trickName": "Weirdshot",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/T57Hfh3bWr8?list=TLPQMjAwNjIwMjCT5KarRPwM5g&t=72",
       "isFundamental": true,
       "usuallyRequired": false,
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -163,6 +165,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -174,6 +177,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -185,6 +189,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -196,6 +201,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -207,6 +213,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -218,17 +225,7 @@ export const Tricks = () => {
       "isMovement": true,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Pure Movement",
       "notes": null
     },
     {
@@ -240,6 +237,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -251,6 +249,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -262,6 +261,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -273,6 +273,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -284,17 +285,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
+      "practiceSection": "Valley-Wasteland",
+      "notes": "release the stick after megaflipping to avoid climbing the gate (less likely to get caught)"
     },
     {
       "id": "E9E1A81E",
       "trickName": "Child Gate Skip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/qh0zt_S4ykQ",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -306,6 +309,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -317,6 +321,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -328,6 +333,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -339,17 +345,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Valley-Wasteland",
       "notes": null
     },
     {
@@ -361,6 +357,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Dodongo's Cavern",
       "notes": null
     },
     {
@@ -372,17 +369,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Dodongo's Cavern",
       "notes": null
     },
     {
       "id": "6C2A9F69",
       "trickName": "Dodongo Door Block Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=0kMaQQ_-5Ds&t=19s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Dodongo's Cavern",
       "notes": null
     },
     {
@@ -394,17 +393,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Dodongo's Cavern",
       "notes": null
     },
     {
@@ -416,6 +405,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -427,6 +417,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -438,6 +429,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -449,6 +441,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -460,6 +453,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -471,6 +465,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -482,6 +477,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -493,6 +489,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -504,6 +501,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -515,6 +513,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -526,6 +525,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -537,6 +537,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -548,17 +549,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Fire Temple",
       "notes": null
     },
     {
@@ -570,6 +561,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -581,28 +573,31 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
       "id": "4B71852C",
       "trickName": "Forest Temple SoT Block Clip",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/jI2ZzvkmmBw?t=3",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
       "id": "06950182",
       "trickName": "Forest Megajump",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=yWNIkOXYWO4",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -614,6 +609,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -625,6 +621,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -636,6 +633,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -647,6 +645,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -658,17 +657,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
       "id": "A9F572CC",
       "trickName": "Phantom Ganon Strategy",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/1lqAeNwt5z8",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -680,6 +681,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -691,6 +693,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -702,17 +705,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Forest Temple",
       "notes": null
     },
     {
@@ -724,6 +717,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -735,6 +729,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -746,6 +741,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -757,6 +753,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -768,6 +765,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -779,6 +777,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -790,6 +789,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -801,6 +801,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -812,6 +813,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -823,6 +825,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -834,6 +837,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -845,6 +849,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -856,6 +861,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -864,23 +870,25 @@ export const Tricks = () => {
         "One Water Key (No ZL",
         "No Iron Boots)"
       ],
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=GjUgW0W4-oY",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "id": "C51AA108",
+      "trickName": "Sidehop to bombable wall",
+      "trickUrl": "https://youtu.be/dszbnOhodwU",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "practiceSection": "Water Temple",
       "notes": null
     },
     {
@@ -892,6 +900,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -903,6 +912,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -914,6 +924,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -925,6 +936,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -936,17 +948,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
       "id": "87D42917",
-      "trickName": "Shadow BK Skip",
+      "trickName": "Boatkey Skip",
       "trickUrl": "https://www.youtube.com/watch?v=sRf8wiaD02o&list=PL1n_Y5KrDdmUu3R2WUXPEmKjsg1XEr84u&index=9&t=0s",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -958,17 +972,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
       "id": "DB6FF011",
-      "trickName": "Shadow Bongo Strategy",
-      "trickUrl": null,
+      "trickName": "(Non 1.0) Bongo Strategy",
+      "trickUrl": "https://youtu.be/AgBByp1nCl4?t=17767",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -980,6 +996,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -991,6 +1008,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -1002,17 +1020,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "id": "A0C2A8B5",
+      "trickName": "(1.0 Only) Bongo Quick Kill",
+      "trickUrl": "https://youtu.be/AgBByp1nCl4?t=7823",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": true,
+      "routing": false,
+      "practiceSection": "Shadow Temple",
       "notes": null
     },
     {
@@ -1024,6 +1044,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1035,6 +1056,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1046,6 +1068,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1057,17 +1080,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
       "id": "FB73AEF8",
       "trickName": "Twinrova Fight",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/AgBByp1nCl4?t=10855",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1079,17 +1104,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
       "id": "FF124B82",
       "trickName": "Hoverslide BK Skip",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=EuiJlqaV76c",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1101,6 +1128,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1112,6 +1140,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1123,6 +1152,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1134,6 +1164,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1145,6 +1176,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1156,17 +1188,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Spirit Temple",
       "notes": null
     },
     {
@@ -1178,6 +1200,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Jabu Jabu",
       "notes": null
     },
     {
@@ -1189,6 +1212,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Jabu Jabu",
       "notes": null
     },
     {
@@ -1200,17 +1224,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Jabu Jabu",
       "notes": null
     },
     {
@@ -1222,6 +1236,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1233,6 +1248,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1244,6 +1260,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1255,6 +1272,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1266,28 +1284,31 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
       "id": "5FCDBB54",
       "trickName": "Equip Swap",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/Ul2ipeV5npQ?t=14",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
       "id": "81D84A88",
       "trickName": "Lost Woods Skull Hookshot",
-      "trickUrl": null,
+      "trickUrl": "https://www.youtube.com/watch?v=IEcRdmaoqAM",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1299,17 +1320,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Generic Overworld",
       "notes": null
     },
     {
@@ -1321,6 +1332,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "GTG",
       "notes": null
     },
     {
@@ -1332,6 +1344,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "GTG",
       "notes": null
     },
     {
@@ -1343,6 +1356,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "GTG",
       "notes": null
     },
     {
@@ -1354,39 +1368,31 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "GTG",
       "notes": null
     },
     {
       "id": "5EE45339",
       "trickName": "Clip into GTG",
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "3126A906",
-      "trickName": "BotW 3 Skulls Route",
-      "trickUrl": "https://youtu.be/gZO1l-tNqaI",
+      "trickUrl": "https://www.youtube.com/watch?v=bcCYAhsI8bY",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "GTG",
+      "notes": null
+    },
+    {
+      "id": "3126A906",
+      "trickName": "BotW 3 Skulls Route",
+      "trickUrl": "https://www.youtube.com/watch?v=gZO1l-tNqaI&feature=youtu.be&list=PLXd60MhAT2ss7gDa9LXU7p54rGBpmXtwT&t=75",
+      "isFundamental": false,
+      "usuallyRequired": false,
+      "isMovement": false,
+      "v1Only": false,
+      "routing": false,
+      "practiceSection": "Bottom of the Well",
       "notes": null
     },
     {
@@ -1398,28 +1404,31 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Bottom of the Well",
       "notes": null
     },
     {
       "id": "061F7FDE",
       "trickName": "Early Chus With Ocarina",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/FCNTgM0qIYI?t=1705",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Bottom of the Well",
       "notes": null
     },
     {
       "id": "06B33728",
       "trickName": "Early Chus Blank A",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/Fz-Ekjg7jmA?t=1140",
       "isFundamental": true,
       "usuallyRequired": true,
       "isMovement": false,
       "v1Only": true,
       "routing": false,
+      "practiceSection": "Bottom of the Well",
       "notes": null
     },
     {
@@ -1431,17 +1440,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Bottom of the Well",
       "notes": null
     },
     {
@@ -1453,6 +1452,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Kak",
       "notes": null
     },
     {
@@ -1464,6 +1464,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Kak",
       "notes": null
     },
     {
@@ -1475,6 +1476,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Kak",
       "notes": null
     },
     {
@@ -1486,6 +1488,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Kak",
       "notes": "RBA Chart: https://imgur.com/a/LgJdU"
     },
     {
@@ -1497,17 +1500,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Kak",
       "notes": null
     },
     {
@@ -1519,6 +1512,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1530,6 +1524,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1541,6 +1536,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1552,6 +1548,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1563,6 +1560,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1574,6 +1572,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1585,17 +1584,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Zora's Domain",
       "notes": null
     },
     {
@@ -1607,17 +1596,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ice Cavern",
       "notes": null
     },
     {
       "id": "0F804DD9",
       "trickName": "Ledge Clip to HP and Compass",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/a7jXaIcQes4",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ice Cavern",
       "notes": null
     },
     {
@@ -1629,6 +1620,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ice Cavern",
       "notes": null
     },
     {
@@ -1640,28 +1632,19 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ice Cavern",
       "notes": null
     },
     {
       "id": "6A60092E",
       "trickName": "Get Compass Clips/Route",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/a7jXaIcQes4",
       "isFundamental": true,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Ice Cavern",
       "notes": null
     },
     {
@@ -1673,6 +1656,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Deku Tree",
       "notes": null
     },
     {
@@ -1684,6 +1668,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Deku Tree",
       "notes": null
     },
     {
@@ -1695,6 +1680,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Deku Tree",
       "notes": null
     },
     {
@@ -1706,17 +1692,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Deku Tree",
       "notes": null
     },
     {
@@ -1728,6 +1704,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1739,6 +1716,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1750,6 +1728,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1761,6 +1740,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1772,6 +1752,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1783,6 +1764,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1794,17 +1776,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Death Mountain",
       "notes": null
     },
     {
@@ -1816,6 +1788,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Lon Lon Ranch",
       "notes": null
     },
     {
@@ -1827,6 +1800,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Lon Lon Ranch",
       "notes": null
     },
     {
@@ -1838,17 +1812,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
+      "practiceSection": "Lon Lon Ranch",
       "notes": null
     },
     {
@@ -1860,6 +1824,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Lake Hylia",
       "notes": null
     },
     {
@@ -1871,6 +1836,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Lake Hylia",
       "notes": null
     },
     {
@@ -1882,6 +1848,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Lake Hylia",
       "notes": null
     },
     {
@@ -1893,18 +1860,8 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": true,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
+      "practiceSection": "Lake Hylia",
+      "notes": "Could use a better video which shows the ESS setup + what frames you can roll on for megaflip"
     },
     {
       "id": "FA10A855",
@@ -1915,6 +1872,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1926,6 +1884,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1937,6 +1896,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1948,6 +1908,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1959,6 +1920,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1970,6 +1932,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1981,6 +1944,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -1992,6 +1956,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -2003,6 +1968,7 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
@@ -2014,1448 +1980,20 @@ export const Tricks = () => {
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
     {
       "id": "1AD2FFF3",
       "trickName": "Double Knuckles Fight Strategy",
-      "trickUrl": null,
+      "trickUrl": "https://youtu.be/AgBByp1nCl4?t=14561",
       "isFundamental": false,
       "usuallyRequired": false,
       "isMovement": false,
       "v1Only": false,
       "routing": false,
+      "practiceSection": "Ganon's Castle",
       "notes": null
     },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": null,
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C51AA108",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "048B036A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A0C2A8B5",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "6B5FAA75",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "174FDD96",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8DFABB77",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "88F3A5DB",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9873AF51",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "3F3D950F",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "7060B199",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F982F241",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "800B595B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "5A41DE69",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "B51C9E63",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F0B1DF5F",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "EBD16AA5",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "748BD3C0",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "34FB706C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "922F90CD",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "6AEDB29F",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "1C81FD92",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "84A05F8A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "719E76BA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "252604E7",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "5FAD4420",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "1DFD4EBB",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "64A3D899",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "7A71E030",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "E04A3964",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "BBBD9073",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A3BC9234",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "BA7A3007",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8C472C72",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8FFC1A2B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "0CB8AB0C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "44EE14CE",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "43A0B43D",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "610B48FE",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2BAF62DB",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "D25C4DD8",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "E7CC320A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "35289625",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "5CC138BF",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "111DB7B8",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "90C1E1E6",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A8425BCE",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "63E28403",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "0162D6F9",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8608797E",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "B601A98C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "5D309DEE",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "0BB67669",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "44645981",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "168A287A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F69397BE",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "25875372",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8B0C4F86",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "E8A20FEA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "79AE859F",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "778AD8A6",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2585E447",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "48342A27",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "4B6055DB",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "E20AEC75",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "E98B3D52",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9C5DE86C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2C573967",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "6B70CCF1",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2A9C8D67",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "DC7B8859",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "B4789CA8",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "1D9EFB92",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "B71F14C1",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C7E4470A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "391FB071",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "16EC3AD7",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "4D2BB236",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "1048A749",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8C7480DD",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9BD19A1E",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "576F02AA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C2E4C409",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "CA5DA03B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C69D922B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "ACBD1249",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "D0F8B725",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "B5CE5D50",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "0ABE3184",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "FF3A9D81",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "74390BA7",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "FF738D27",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "21745A1B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A23DE01C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "502943F9",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2D00E2EF",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "1E020C7D",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "5048F6CF",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9D926DDA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "BEA0D934",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "57A5C3BC",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A4BFCFB7",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "6187C6B6",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9E492936",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "8FF4E41A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "0F3BAA24",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "ADAB6FFD",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "DAF5D48D",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "3C673660",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "209E279C",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "2BA5343B",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "300CBD5A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "222573FB",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "3445ECB1",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C1FD5AFA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "DF6BCE7E",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "836CE341",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "A206D041",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F4CD8DBD",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F2E3B3AA",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F61A062E",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "D7C79E38",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "C0F9CBF1",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "10212346",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "9B2C535A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "F3E76510",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    },
-    {
-      "id": "14E3704A",
-      "trickName": null,
-      "trickUrl": null,
-      "isFundamental": null,
-      "usuallyRequired": null,
-      "isMovement": null,
-      "v1Only": null,
-      "routing": null,
-      "notes": null
-    }
   ];
 }
