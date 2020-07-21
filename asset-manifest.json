@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bingo-teacher/static/css/main.dd569279.chunk.css",
-    "main.js": "/bingo-teacher/static/js/main.c80b3e78.chunk.js",
-    "main.js.map": "/bingo-teacher/static/js/main.c80b3e78.chunk.js.map",
+    "main.js": "/bingo-teacher/static/js/main.66be5ac6.chunk.js",
+    "main.js.map": "/bingo-teacher/static/js/main.66be5ac6.chunk.js.map",
     "runtime-main.js": "/bingo-teacher/static/js/runtime-main.d5921fff.js",
     "runtime-main.js.map": "/bingo-teacher/static/js/runtime-main.d5921fff.js.map",
     "static/js/2.5eb9bbde.chunk.js": "/bingo-teacher/static/js/2.5eb9bbde.chunk.js",
     "static/js/2.5eb9bbde.chunk.js.map": "/bingo-teacher/static/js/2.5eb9bbde.chunk.js.map",
     "index.html": "/bingo-teacher/index.html",
-    "precache-manifest.f30cc3e1f9868d258b74bcc52e119c22.js": "/bingo-teacher/precache-manifest.f30cc3e1f9868d258b74bcc52e119c22.js",
+    "precache-manifest.f81516d220d84fde020415f995e253af.js": "/bingo-teacher/precache-manifest.f81516d220d84fde020415f995e253af.js",
     "service-worker.js": "/bingo-teacher/service-worker.js",
     "static/css/main.dd569279.chunk.css.map": "/bingo-teacher/static/css/main.dd569279.chunk.css.map",
     "static/js/2.5eb9bbde.chunk.js.LICENSE.txt": "/bingo-teacher/static/js/2.5eb9bbde.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d5921fff.js",
     "static/js/2.5eb9bbde.chunk.js",
     "static/css/main.dd569279.chunk.css",
-    "static/js/main.c80b3e78.chunk.js"
+    "static/js/main.66be5ac6.chunk.js"
   ]
 }
