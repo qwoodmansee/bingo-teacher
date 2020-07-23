@@ -317,7 +317,7 @@ export const Goals = () => {
       "trickIds": [
         "9C338AB0",
         "4B71852C",
-        "6950182",
+        "06950182",
         "04B44A63"
       ],
       "goalNotes": "Mega jump gets you to floormaster room with key. Last key is well key."
@@ -722,7 +722,8 @@ export const Goals = () => {
       "trickIds": [
         "9C338AB0",
         "ED22ECBC",
-        "A9F572CC"
+        "A9F572CC",
+        "0A1DD7ED"
       ],
       "goalNotes": null
     },
@@ -1144,7 +1145,8 @@ export const Goals = () => {
         "A849D697",
         "9C338AB0",
         "ED22ECBC",
-        "A9F572CC"
+        "A9F572CC",
+        "0A1DD7ED"
       ],
       "goalNotes": "Beat Forest or RBA bugs with broken sword on C-Right"
     },
@@ -1445,7 +1447,7 @@ export const Goals = () => {
       "goalName": "Map & Compass in Forest Temple",
       "trickIds": [
         "9C338AB0",
-        "6950182",
+        "06950182",
         "4B71852C",
         "D5CEFBA5",
       ],

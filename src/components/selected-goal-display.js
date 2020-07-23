@@ -27,7 +27,6 @@ export default function SelectedGoalDisplay({goal, onRemoveGoal}) {
     return goal.tricks.filter((t) => t.isFundamental);
   }, [goal]);
 
-  
   const normalTricks = useMemo(() => {
     return goal.tricks.filter((t) => !t.isFundamental);
   }, [goal]);
