@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BingoTeacher
 
-## Available Scripts
+BingoTeacher is a tool used by the Ocarina of Time speedrunning community to help learn the Bingo game variant. Bingo requires a ton of tricks that many players don't know, and therefore has a large barrier to entry. This tool attempts to make Bingo more approachable, allowing users to enter goals from their bingo cards and instantly have video tutorials for all the tricks they may not know which are required to complete the goals.
 
-In the project directory, you can run:
+## Publicly Deployed Version
 
-### `npm start`
+Bingo Teacher is deployed on GitHub pages at https://qwoodmansee.github.io/bingo-teacher/ - if you'd like to see the tool work, manually search for a goal and select it. Due to the volume of videos per goal, this tool is most easily used on a desktop browser.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running Locally
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+BingoTeacher was built using react, and should only need a small amount of setup to get running locally:
 
-### `npm test`
+```bash
+git clone git@github.com:qwoodmansee/bingo-teacher.git
+cd bingo-teacher
+npm install ## you could use yarn
+npm run start ## you could use yarn
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. All code is required to be tested in a dedicated file, and all lint rules are strongly enforced for code style consistency. Standalone commits with details messages are always appreciated.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development Tools
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+There are very few tools required to contribute to this project. Due to the low scope of this project, it was built using minimal third party dependencies. Notably, `master` uses an API data source which is locked down, so I recommend using a fork of the application which uses a hardcoded data set (see #ed9ee9).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+[MIT](https://choosealicense.com/licenses/mit/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployed Application Privacy Policy
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Privacy Policy](https://github.com/qwoodmansee/rehearse/blob/master/privacy-policy.md)
